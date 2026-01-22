@@ -10,7 +10,7 @@
 ## 2) Сгенерировать расширенное описание, цель, задачи для проекта: 
 
 **Пример ПРОМТа**: 
-Используем правила из карточек: [01 «Используй роль»](cursor-methods/cards/card01-role.md), [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [03 «Определи уровень детализации»](cursor-methods/cards/card03-detail-level.md), [04 «Зафиксируй формат ответа»](cursor-methods/cards/card04-format-response.md), [10 «Проверь гипотезы»](cursor-methods/cards/card10-check-hypotheses.md), [12 «Объясняй допущения»](cursor-methods/cards/card12-explain-assumptions.md).
+Используем правила из карточек: [01 «Используй роль»](cards-screenshots/card01-role.png), [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.png), [12 «Объясняй допущения»](cards-screenshots/card12-explain-assumptions.png).
 ```
 Задание:
 Программа или ПО, которое может маскировать цифры в excel таблице. Сделать это фоновым процессом.
@@ -51,7 +51,7 @@
 Для более точной генерации кода проект делим на этапы; список этапов можно сгенерировать с помощью LLM:
 
 **Пример ПРОМТа**:
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [03 «Определи уровень детализации»](cursor-methods/cards/card03-detail-level.md), [04 «Зафиксируй формат ответа»](cursor-methods/cards/card04-format-response.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png).
 ```
 Задание: Подготовь крупные этапы проекта, на которые можно разбить разработку.
 Цель: получить крупные этапы проекта для планирования разработки.
@@ -92,7 +92,7 @@ LLM хорошо подходит для:
 **Этап 0-1:** объявляем основную задачу для ИИ и назначаем задачу 1ого этапа
 
 **Пользователь:**
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [03 «Определи уровень детализации»](cursor-methods/cards/card03-detail-level.md), [04 «Зафиксируй формат ответа»](cursor-methods/cards/card04-format-response.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md), [15 «Предложи решение»](cursor-methods/cards.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
 ```
 Задание первого этапа:
 Продумай архитектуру проекта, какие файлы нужны, продумай правильное название для файлов.
@@ -173,7 +173,7 @@ config.json
 ```
 
 **Пользователь:**
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [03 «Определи уровень детализации»](cursor-methods/cards/card03-detail-level.md), [04 «Зафиксируй формат ответа»](cursor-methods/cards/card04-format-response.md), [09 «Пошаговое рассуждение»](cursor-methods/cards/card09-stepwise-reasoning.md), [15 «Предложи решение»](cursor-methods/cards.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [09 «Пошаговое рассуждение»](cards-screenshots/card09-stepwise-reasoning.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
 ```
 Задание (Этап 2): Алгоритм шифрации/маскирования по диапазонам сумм.
 
@@ -240,7 +240,7 @@ def test_mask_value_range_1(self):
 ````
 
 **Пользователь:** 
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [04 «Зафиксируй формат ответа»](cursor-methods/cards/card04-format-response.md), [05 «Выбери файлы»](cursor-methods/cards/card05-select-files.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md), [16 «Напиши код»](cursor-methods/cards.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
 ```
 Задание (Этап 3): Код для просмотра буфера обмена и применение алгоритма.
 
@@ -313,7 +313,7 @@ def test_is_table_like(self):
 ````
 
 **Пользователь:** Следующий этап включает в себя защиту от повторного маскирования, поэтому можно применить следующую технику: предпложим что есть 2 модели Coder и researcher, можно обдумать варианты решения с researcher и сохранить их MD, после отправить этот файл Coder что бы он реализовал логику. Researcher даст варианты реализации, так как был обучен на проведение глубоких исследований.
-Используем правила из карточек: [10 «Проверь гипотезы»](cursor-methods/cards/card10-check-hypotheses.md), [11 «Сравни альтернативы»](cursor-methods/cards.md), [15 «Предложи решение»](cursor-methods/cards.md).
+Используем правила из карточек: [10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.png), [11 «Сравни альтернативы»](cards-screenshots/card11-compare-alternatives.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
 ```
 Задание (Этап 4): Подготовь несколько вариантов алгоритма защиты от бесконечного маскирования. Без кода, только описание.
 
@@ -338,7 +338,7 @@ def test_is_table_like(self):
 ```
 
 **Пользователь:**
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [05 «Выбери файлы»](cursor-methods/cards/card05-select-files.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md), [16 «Напиши код»](cursor-methods/cards.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
 ```
 Задание (Этап 4): Реализовать защиту от повторного маскирования (анти-loop) на основе хэша.
 
@@ -379,7 +379,7 @@ class ClipboardHandler:
 ````
 
 **Пользователь:**
-Используем правила из карточек: [02 «Сформулируй цель»](cursor-methods/cards/card02-goal.md), [05 «Выбери файлы»](cursor-methods/cards/card05-select-files.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md), [16 «Напиши код»](cursor-methods/cards.md).
+Используем правила из карточек: [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
 ```
 Задание (Этап 5): Запуск как демон в фоне и остановка Ctrl+C.
 
@@ -427,7 +427,7 @@ def main():
 ````
 **ЭТАП 6** покрытие тестами. Можно отдельно просить ИИ покрыть тестами функционал ПО. Однако, намного эффективнее создать правило Rules (ссылка на методичку по правилам) и поставить это правило при каждом запросе. Тем самым при написании нового функционала ИИ будет обновлять файл тестирования для полного покрытия ПО.
 ПРОМТ для написани тестов может выглядеть так:
-Используем правила из карточек: [03 «Определи уровень детализации»](cursor-methods/cards/card03-detail-level.md), [05 «Выбери файлы»](cursor-methods/cards/card05-select-files.md), [06 «Ограничь область»](cursor-methods/cards/card06-limit-scope.md), [18 «Сгенерируй тесты»](cursor-methods/cards.md).
+Используем правила из карточек: [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [18 «Сгенерируй тесты»](cards-screenshots/card18-generate-tests.png).
 ```
 Задание (Этап 6): Сгенерируй тесты на каждом этапе (чтобы ИИ-агент точно покрыл кейсы).
 
