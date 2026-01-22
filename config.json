@@ -1,0 +1,12 @@
+{
+    "cipher_settings": {
+        "random_range_min": 1000,
+        "random_range_max": 10000,
+        "decimal_places": 2
+    },
+    "excel_settings": {
+        "sheet_name": "Sheet1",
+        "data_start_row": 2,
+        "data_start_column": 1
+    }
+}
