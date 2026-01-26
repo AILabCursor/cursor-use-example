@@ -14,24 +14,6 @@
 - **Шаблон кейса/чата**: [`CHAT_USE_CASE_TEMPLATE.md`](CHAT_USE_CASE_TEMPLATE.md)
 - **Папка с карточками‑скриншотами**: [`cards-screenshots/`](cards-screenshots/)
 
-## Карточки правил (из `cards-screenshots/`)
-
-Ниже — карточки, которые использовались в промптах в `CHAT_USE_CASE_TEMPLATE.md`:
-
-- [01 — “Используй роль”](cards-screenshots/card01-role.png)
-- [02 — “Сформулируй цель”](cards-screenshots/card02-goal.png)
-- [03 — “Определи уровень детализации”](cards-screenshots/card03-detail-level.png)
-- [04 — “Зафиксируй формат ответа”](cards-screenshots/card04-format-response.png)
-- [05 — “Выбери файлы”](cards-screenshots/card05-select-files.png)
-- [06 — “Ограничь область”](cards-screenshots/card06-limit-scope.png)
-- [09 — “Пошаговое рассуждение”](cards-screenshots/card09-stepwise-reasoning.png)
-- [10 — “Проверь гипотезы”](cards-screenshots/card10-check-hypotheses.png)
-- [11 — “Сравни альтернативы”](cards-screenshots/card11-compare-alternatives.png)
-- [12 — “Объясняй допущения”](cards-screenshots/card12-explain-assumptions.png)
-- [15 — “Предложи решение”](cards-screenshots/card15-suggest-solution.png)
-- [16 — “Напиши код”](cards-screenshots/card16-write-code.png)
-- [18 — “Сгенерируй тесты”](cards-screenshots/card18-generate-tests.png)
-
 ## Что внутри (структура)
 
 - `src/cipher_engine.py`: алгоритм маскирования чисел по диапазонам (до 10k / до 100k / >100k)
