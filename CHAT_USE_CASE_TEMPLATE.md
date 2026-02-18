@@ -13,7 +13,7 @@
 Сформировать расширенное описание, цель, задачи и условия проекта на основе исходного задания.
 
 **правила из карточек**
-[01 «Используй роль»](cards-screenshots/card01-role.png), [02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.png), [12 «Объясняй допущения»](cards-screenshots/card12-explain-assumptions.png).
+[01 «Используй роль»](cards-screenshots/card01-role.pdf), [02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.pdf), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.pdf), [10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.pdf), [12 «Объясняй допущения»](cards-screenshots/card12-explain-assumptions.pdf).
 
 **Запрос**
 ```text
@@ -60,7 +60,7 @@
 Сформировать крупные этапы проекта для планирования разработки.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.pdf), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf).
 
 **Запрос**
 ```text
@@ -106,7 +106,7 @@ LLM хорошо подходит для:
 Определить архитектуру проекта и структуру файлов без углубления в реализацию.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.pdf), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.pdf).
 
 **Запрос**
 ```text
@@ -196,7 +196,7 @@ excel_cipher/
 Описать алгоритм маскирования по диапазонам сумм и подготовить preview кода.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [09 «Пошаговое рассуждение»](cards-screenshots/card09-stepwise-reasoning.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.pdf), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.pdf), [09 «Пошаговое рассуждение»](cards-screenshots/card09-stepwise-reasoning.pdf), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.pdf).
 
 **Запрос**
 ```text
@@ -271,7 +271,7 @@ def test_mask_value_range_1(self):
 Реализовать обработку буфера обмена и применить маскирование, дать preview кода и команду тестов.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [04 «Зафиксируй формат ответа»](cards-screenshots/card04-format-response.pdf), [05 «Выбери файлы»](cards-screenshots/card05-select-files.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf), [16 «Напиши код»](cards-screenshots/card16-write-code.pdf).
 
 **Запрос**
 ```text
@@ -353,7 +353,7 @@ def test_is_table_like(self):
 Подобрать несколько вариантов защиты от бесконечного маскирования и зафиксировать гипотезы.
 
 **правила из карточек**
-[10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.png), [11 «Сравни альтернативы»](cards-screenshots/card11-compare-alternatives.png), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.png).
+[10 «Проверь гипотезы»](cards-screenshots/card10-check-hypotheses.pdf), [11 «Сравни альтернативы»](cards-screenshots/card11-compare-alternatives.pdf), [15 «Предложи решение»](cards-screenshots/card15-suggest-solution.pdf).
 
 **Запрос**
 ```text
@@ -389,7 +389,7 @@ def test_is_table_like(self):
 Реализовать защиту от повторного маскирования (анти-loop) на основе хэша.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [05 «Выбери файлы»](cards-screenshots/card05-select-files.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf), [16 «Напиши код»](cards-screenshots/card16-write-code.pdf).
 
 **Запрос**
 ```text
@@ -438,7 +438,7 @@ class ClipboardHandler:
 Настроить запуск демона в фоне и корректную остановку по Ctrl+C.
 
 **правила из карточек**
-[02 «Сформулируй цель»](cards-screenshots/card02-goal.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [16 «Напиши код»](cards-screenshots/card16-write-code.png).
+[02 «Сформулируй цель»](cards-screenshots/card02-goal.pdf), [05 «Выбери файлы»](cards-screenshots/card05-select-files.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf), [16 «Напиши код»](cards-screenshots/card16-write-code.pdf).
 
 **Запрос**
 ```text
@@ -496,7 +496,7 @@ def main():
 Сгенерировать тесты на каждом этапе, не изменяя production-код.
 
 **правила из карточек**
-[03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.png), [05 «Выбери файлы»](cards-screenshots/card05-select-files.png), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.png), [18 «Сгенерируй тесты»](cards-screenshots/card18-generate-tests.png).
+[03 «Определи уровень детализации»](cards-screenshots/card03-detail-level.pdf), [05 «Выбери файлы»](cards-screenshots/card05-select-files.pdf), [06 «Ограничь область»](cards-screenshots/card06-limit-scope.pdf), [18 «Сгенерируй тесты»](cards-screenshots/card18-generate-tests.pdf).
 
 **Запрос**
 ```text
